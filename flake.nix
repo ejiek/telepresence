@@ -20,6 +20,7 @@
         devShell = pkgs.mkShell {
           buildInputs = [
             telepresence
+            pkgs.jq
             # ... any other dependencies
           ];
 
